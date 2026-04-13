@@ -7,9 +7,9 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-green)](./config.yaml)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE)
 
-**中文**: 军师是一个 [QoderWork](https://qoder.com) 智能体技能，将军事理论与管理智慧转化为可执行的职场决策建议。
+军师是一个 [QoderWork](https://qoder.com) 智能体技能，将军事理论与管理智慧转化为可执行的职场决策建议。
 
-**English**: Junshi (军师) is a [QoderWork](https://qoder.com) AI agent skill that transforms military strategy and management wisdom into actionable workplace decision-making advice.
+Junshi (军师) is a [QoderWork](https://qoder.com) AI agent skill that transforms military strategy and management wisdom into actionable workplace decision-making advice.
 
 ---
 
