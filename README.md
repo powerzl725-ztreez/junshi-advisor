@@ -35,7 +35,7 @@ Junshi (军师) is a [QoderWork](https://qoder.com) AI agent skill that transfor
 | **非对称作战** Asymmetric Warfare | 《超限战》Unrestricted Warfare | 以小博大、竞争策略 Competing against larger opponents |
 | **摩擦预留** Friction Reserve | 《战争论》On War | 排期规划、缓冲管理 Scheduling, buffer management |
 
-### 商业/管理理论模块（六大扩展）| Business/Management Modules (6 Extensions)
+### 商业/管理理论模块（六大扩展，持续更新）| Business/Management Modules (6 Extensions)
 
 | 模块 Module | 来源 Source | 适用场景 Use Cases |
 |-------------|-------------|-------------------|
