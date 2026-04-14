@@ -63,7 +63,7 @@ Once officially listed, search for "Junshi" or "军师" in QoderWork to install.
 git clone https://github.com/yourname/junshi-advisor.git
 ```
 
-2. 复制到 QoderWork skills 目录 | Copy to QoderWork skills directory:
+2. 复制到 openClaw/workBuddy/QoderWork skills 目录 | Copy to QoderWork skills directory:
 ```bash
 # macOS/Linux
 cp -r junshi-advisor ~/.qoderwork/skills/
@@ -72,7 +72,7 @@ cp -r junshi-advisor ~/.qoderwork/skills/
 xcopy /E /I junshi-advisor %USERPROFILE%\.qoderwork\skills\junshi-advisor
 ```
 
-3. 重启 QoderWork 或开新对话，技能自动加载。
+3. 重启 openClaw/workBuddy/QoderWork 或开新对话，技能自动加载。
 
 Restart QoderWork or start a new chat session. The skill will auto-load.
 
