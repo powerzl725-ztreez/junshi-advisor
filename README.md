@@ -1,202 +1,148 @@
-# 军师 (Junshi Advisor) | Strategic Advisor
+# 军师 (Junshi Advisor) - 职场决策辅助技能
 
 > 愿「军师.skill」助阁下决胜职场。
-> May the Junshi Skill help you triumph in your career.
 
-[![Qoder Skill](https://img.shields.io/badge/Qoder-Skill-blue)](https://qoder.com)
-[![Version](https://img.shields.io/badge/version-2.0.0-green)](./config.yaml)
-[![License](https://img.shields.io/badge/license-MIT-yellow)](./LICENSE)
+军师是一个将军事理论与管理智慧转化为可执行职场决策建议的 AI 技能。通过七层知识编译管线，将经典著作转化为结构化的决策框架。
 
-军师是一个 [QoderWork](https://qoder.com) 智能体技能，将军事理论与管理智慧转化为可执行的职场决策建议。
+## 核心特性
 
-Junshi (军师) is a [QoderWork](https://qoder.com) AI agent skill that transforms military strategy and management wisdom into actionable workplace decision-making advice.
+- **双引擎架构**：知识编译器（智慧来源）+ 决策引擎（分析输出）
+- **七层知识加工**：摘要→实体→概念→洞见→框架→标签→综合
+- **十三谋略模块**：覆盖项目评估、风险管理、创新决策、危机应对等场景
+- **结构化输出**：军师诊断→核心评估→在下建议→军师点睛→避坑指南
 
----
+## 模块列表
 
-## 核心特点 | Key Features
+### 军事理论模块（6个）
 
-- **12大谋略模块** | **12 Strategic Modules**: 涵盖军事经典与商业管理理论 | Covering military classics and business management theories
-- **模块化架构** | **Modular Architecture**: YAML 定义 + Markdown 模板，易于扩展 | YAML definitions + Markdown templates for easy extension
-- **结构化输出** | **Structured Output**: 诊断 → 评估 → 建议 → 点睛 → 避坑 | Diagnosis → Assessment → Advice → Insight → Pitfall Avoidance
-- **沉浸式体验** | **Immersive Experience**: 军师语气（在下/阁下），增强信任感与仪式感 | Advisor tone (humble servant / honored lord) enhances trust and ceremony
+| 模块ID | 名称 | 来源 | 适用场景 |
+|--------|------|------|----------|
+| five_affairs | 五事七计 | 《孙子兵法》 | 项目评估、可行性分析 |
+| invincible_first | 先为不可胜 | 《孙子兵法》 | 风险评估、止损、最坏情况 |
+| schwerpunkt | 重心打击 | 《战争论》 | 优先级、聚焦、资源分配 |
+| friction | 摩擦预留 | 《战争论》 | 排期、缓冲、计划调整 |
+| protracted_war | 阶段划分 | 《论持久战》 | 长期坚持、战略规划 |
+| asymmetric | 非对称作战 | 《超限战》 | 以小博大、资源劣势 |
 
----
+### 商业/管理理论模块（7个）
 
-## 谋略模块一览 | Strategic Modules Overview
+| 模块ID | 名称 | 来源 | 适用场景 |
+|--------|------|------|----------|
+| crossing_the_chasm | 跨越鸿沟 | 《跨越鸿沟》 | 新产品上市、市场拓展 |
+| innovators_dilemma | 创新者的窘境 | 《创新者的窘境》 | 内部创新、技术选择 |
+| blue_ocean | 蓝海战略 | 《蓝海战略》 | 差异化竞争、价值创新 |
+| black_swan | 黑天鹅 | 《黑天鹅》 | 极端事件、危机应对 |
+| influence | 影响力 | 《影响力》 | 沟通说服、向上管理 |
+| antifragile | 反脆弱 | 《反脆弱》 | 风险配置、杠铃策略 |
+| red_thread | 细红线模型 | 《细红线模型》 | 演讲汇报、提案表达 |
 
-### 军事理论模块（六大经典）| Military Theory Modules (6 Classics)
-
-| 模块 Module | 来源 Source | 适用场景 Use Cases |
-|-------------|-------------|-------------------|
-| **五事七计** Five Affairs & Seven Calculations | 《孙子兵法》The Art of War | 项目立项、可行性评估 Project initiation, feasibility assessment |
-| **先为不可胜** Invincibility First | 《孙子兵法》The Art of War | 风险评估、止损决策 Risk assessment, stop-loss decisions |
-| **重心打击** Center of Gravity Strike | 《战争论》On War | 优先级排序、资源聚焦 Priority sorting, resource focus |
-| **阶段划分** Phase Division | 《论持久战》On Protracted War | 长期项目、坚持策略 Long-term projects, persistence strategies |
-| **非对称作战** Asymmetric Warfare | 《超限战》Unrestricted Warfare | 以小博大、竞争策略 Competing against larger opponents |
-| **摩擦预留** Friction Reserve | 《战争论》On War | 排期规划、缓冲管理 Scheduling, buffer management |
-
-### 商业/管理理论模块（六大扩展，持续更新）| Business/Management Modules (6 Extensions)
-
-| 模块 Module | 来源 Source | 适用场景 Use Cases |
-|-------------|-------------|-------------------|
-| **跨越鸿沟** Crossing the Chasm | 《跨越鸿沟》Crossing the Chasm | 新产品上市、市场推广 New product launch, marketing |
-| **创新者的窘境** Innovator's Dilemma | 《创新者的窘境》The Innovator's Dilemma | 内部创新、颠覆式创新 Internal innovation, disruptive innovation |
-| **蓝海战略** Blue Ocean Strategy | 《蓝海战略》Blue Ocean Strategy | 差异化竞争、价值创新 Differentiation, value innovation |
-| **黑天鹅** Black Swan | 《黑天鹅》The Black Swan | 危机应对、极端事件 Crisis response, extreme events |
-| **影响力** Influence | 《影响力》Influence | 向上管理、跨部门沟通 Managing up, cross-department communication |
-| **反脆弱** Antifragile | 《反脆弱》Antifragile | 职业风险配置、杠铃策略 Career risk allocation, barbell strategy |
-
----
-
-## 安装使用 | Installation
-
-### 方式一：QoderWork 技能市场（待上架）| Method 1: QoderWork Skill Marketplace (Coming Soon)
-
-等待官方技能市场上架后，直接在 QoderWork 中搜索"军师"安装。
-
-Once officially listed, search for "Junshi" or "军师" in QoderWork to install.
-
-### 方式二：手动安装 | Method 2: Manual Installation
-
-1. 克隆本仓库到本地 | Clone this repository:
-```bash
-git clone https://github.com/yourname/junshi-advisor.git
-```
-
-2. 复制到 openClaw/workBuddy/QoderWork skills 目录 | Copy to QoderWork skills directory:
-```bash
-# macOS/Linux
-cp -r junshi-advisor ~/.qoderwork/skills/
-
-# Windows
-xcopy /E /I junshi-advisor %USERPROFILE%\.qoderwork\skills\junshi-advisor
-```
-
-3. 重启 openClaw/workBuddy/QoderWork 或开新对话，技能自动加载。
-
-Restart QoderWork or start a new chat session. The skill will auto-load.
-
----
-
-## 使用示例 | Usage Examples
-
-### 示例 1：项目立项决策 | Example 1: Project Initiation Decision
-
-**用户 User**: 老板让我牵头一个新项目，要不要接？My boss wants me to lead a new project. Should I take it?
-
-**军师 Junshi**（触发「五事七计」Trigger: Five Affairs & Seven Calculations）：
-> 【军师诊断】阁下正面临一次"庙算"问题...
-> 【Strategic Diagnosis】You face a "temple calculation" challenge...
->
-> 【五事评估】Five Affairs Assessment
-> - 道（共识）Tao (Consensus): 团队内部是否达成共识？上级是否支持？Does the team have consensus? Does leadership support this?
-> - 天（时机）Tian (Timing): 当前市场时机、政策环境如何？What's the current market timing and policy environment?
-> ...
-
-### 示例 2：风险评估 | Example 2: Risk Assessment
-
-**用户 User**: 这个方案风险太大，我怕搞砸 This plan is too risky. I'm afraid I'll mess it up.
-
-**军师 Junshi**（触发「先为不可胜」Trigger: Invincibility First）：
-> 【军师诊断】阁下正面临一个"风险评估"问题...
-> 【Strategic Diagnosis】You face a risk assessment challenge...
->
-> 【风险评估】Risk Assessment
-> - 最坏情况 Worst Case: {worst_loss}
-> - 可承受性 Affordability: {can_afford}
-> ...
-
-### 示例 3：向上管理 | Example 3: Managing Up
-
-**用户 User**: 如何推动领导层解决一线的问题？How can I push leadership to solve frontline problems?
-
-**军师 Junshi**（触发「影响力」+「跨越鸿沟」Trigger: Influence + Crossing the Chasm）：
-> 【军师诊断】阁下正面临"跨越鸿沟"的经典困境...
-> 【Strategic Diagnosis】You face the classic "crossing the chasm" dilemma...
->
-> 【六大影响力策略】Six Principles of Influence
-> 1. 互惠 Reciprocity: 先给领导一份竞品情报...First give leadership competitive intelligence...
-> 2. 社会认同 Social Proof: 展示同行成功案例...Show peer success cases...
-> ...
-
----
-
-## 工程结构 | Project Structure
+## 工程结构
 
 ```
 junshi-advisor/
-├── SKILL.md              # 主技能文件 | Main skill file
-├── config.yaml           # 全局配置 | Global configuration
-├── modules/              # 谋略模块（YAML，12个）| Strategy modules (12 YAML files)
-│   ├── five_affairs.yaml
-│   ├── invincible_first.yaml
-│   ├── crossing_the_chasm.yaml
-│   └── ...
-└── templates/            # 输出模板（Markdown，12个）| Output templates (12 Markdown files)
-    ├── five_affairs.md
-    ├── invincible_first.md
-    ├── crossing_the_chasm.md
-    └── ...
+├── SKILL.md                    # 主文件 - 角色设定与工作流
+├── config.yaml                 # 全局配置
+├── knowledge-compiler.md       # 知识编译器方法论
+├── README.md                   # 本文件
+├── knowledge/                  # 知识编译产物
+│   ├── black_swan.md           # 《黑天鹅》知识编译
+│   ├── innovators_dilemma.md   # 《创新者的窘境》知识编译
+│   ├── crossing_the_chasm.md   # 《跨越鸿沟》知识编译
+│   ├── blue_ocean.md           # 《蓝海战略》知识编译
+│   ├── antifragile.md          # 《反脆弱》知识编译
+│   ├── on_protracted_war.md    # 《论持久战》知识编译
+│   ├── on_war.md               # 《战争论》知识编译
+│   ├── sunzi.md                # 《孙子兵法》知识编译
+│   └── _synthesis.md           # 跨书综合分析
+├── modules/                    # 谋略模块定义（YAML）
+│   ├── black_swan.yaml
+│   ├── innovators_dilemma.yaml
+│   └── ... (13个模块)
+└── templates/                  # 输出模板（Markdown）
+    ├── black_swan.md
+    ├── innovators_dilemma.md
+    └── ... (13个模板)
 ```
 
----
+## 使用方法
 
-## 扩展新模块 | Extending with New Modules
+1. 将本技能文件夹复制到 QoderWork 技能目录
+2. 启动军师技能，描述你的职场决策场景
+3. 军师将自动匹配最合适的模块进行分析
+4. 获得结构化的诊断和建议
 
-无需修改 SKILL.md，只需两步 | No need to modify SKILL.md, just two steps:
+## 决策场景示例
 
-1. 在 `modules/` 下新建 `your_module.yaml` | Create `your_module.yaml` in `modules/`:
-```yaml
-id: your_module
-name: 你的模块名 | Your Module Name
-version: "1.0.0"
-source: "理论来源 | Theory Source"
-category: 分类 | Category
-priority: 80
-keywords:
-  - 关键词1 | keyword1
-  - 关键词2 | keyword2
-input_prompts:
-  - 追问问题1 | Follow-up question 1
-  - 追问问题2 | Follow-up question 2
-analysis_logic:
-  dimensions:
-    - 维度1 | Dimension 1
-    - 维度2 | Dimension 2
-output_template: your_module.md
+**场景1：项目立项**
+> "我应该接受这个新项目吗？"
+
+军师将使用 **五事七计** 模块，从道、天、地、将、法五个维度评估项目可行性。
+
+**场景2：危机应对**
+> "系统突然崩溃，客户要求赔偿，怎么办？"
+
+军师将使用 **黑天鹅** 模块，分析极端事件的脆弱性，提供杠铃策略建议。
+
+**场景3：创新决策**
+> "公司内部有一个创新项目，但现有客户不感兴趣，该继续吗？"
+
+军师将使用 **创新者的窘境** 模块，区分维持性创新与破坏性创新，建议独立组织策略。
+
+**场景4：长期规划**
+> "面对强大的竞争对手，如何制定长期战略？"
+
+军师将使用 **论持久战** 模块，规划防御→相持→反攻三阶段战略。
+
+## 版本历史
+
+### v3.0.0 (2026-04-17)
+- 新增《黑天鹅》模块 - 极端事件与危机应对
+- 新增《创新者的窘境》模块 - 内部创新与技术选择
+- 完善七层知识编译管线
+- 更新跨书综合分析（五书综合）
+- 优化输出模板结构
+
+### v2.0.0
+- 新增《反脆弱》模块
+- 新增《蓝海战略》模块
+- 新增《论持久战》模块
+
+### v1.0.0
+- 初始版本
+- 包含《孙子兵法》《战争论》《跨越鸿沟》等基础模块
+
+## 知识编译方法论
+
+军师的核心竞争力在于**七层知识编译管线**：
+
+```
+原书文本
+  │
+  ├─ Pass 1: 摘要层 ──────── 核心论点和论证链
+  ├─ Pass 2: 实体层 ──────── 人物、术语、案例索引
+  ├─ Pass 3: 概念层 ──────── 概念定义 + 概念关系图谱
+  ├─ Pass 4: 洞见层 ──────── 反直觉判断、因果链、深层驱动力
+  ├─ Pass 5: 框架层 ──────── 可复用的分析框架和决策规则
+  ├─ Pass 6: 标签层 ──────── 场景标签、情境识别规则
+  └─ Pass 7: 综合层 ──────── 跨书对比分析、理论融合
 ```
 
-2. 在 `templates/` 下新建 `your_module.md`，使用 `{variable}` 占位符。
+详细规范见 [knowledge-compiler.md](knowledge-compiler.md)。
 
-Create `your_module.md` in `templates/` using `{variable}` placeholders.
+## 贡献指南
 
-重新加载即可生效。Reload to activate.
+欢迎贡献新的谋略模块！步骤如下：
 
----
+1. 在 `knowledge/` 下添加知识编译文件（七层结构）
+2. 在 `modules/` 下添加模块定义（YAML格式）
+3. 在 `templates/` 下添加输出模板（Markdown格式）
+4. 更新 `README.md` 模块列表
+5. 更新 `knowledge/_synthesis.md` 跨书综合分析
 
-## 贡献指南 | Contributing
+## 许可证
 
-欢迎提交 Issue 和 PR！Issues and PRs welcome!
-
-- 发现 bug？请提交 Issue，描述复现步骤 | Found a bug? Submit an issue with reproduction steps
-- 想新增模块？参考现有模块格式，提交 PR | Want to add a module? Reference existing format and submit a PR
-- 有改进建议？欢迎讨论 | Have suggestions? Join the discussion
-
----
-
-## 许可证 | License
-
-[MIT License](./LICENSE)
+MIT License
 
 ---
 
-## 致谢 | Acknowledgments
-
-- **军事理论 Military Theory**:《孙子兵法》The Art of War、克劳塞维茨《战争论》Clausewitz's On War、毛泽东《论持久战》Mao's On Protracted War、乔良/王湘穗《超限战》Qiao Liang/Wang Xiangsui's Unrestricted Warfare
-- **管理理论 Management Theory**: 杰弗里·摩尔 Geoffrey Moore、克莱顿·克里斯坦森 Clayton Christensen、W·钱·金 W. Chan Kim、纳西姆·塔勒布 Nassim Taleb、罗伯特·西奥迪尼 Robert Cialdini
-- **平台 Platform**: [QoderWork](https://qoder.com)
-
----
-
-**愿「军师.skill」助阁下决胜职场。**
-**May the Junshi Skill help you triumph in your career.**
+*愿「军师.skill」助阁下决胜职场。*
